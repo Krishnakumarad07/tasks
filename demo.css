@@ -1,0 +1,129 @@
+*{
+  padding: 0px;
+  margin-top: 0px;
+  box-sizing: 0px;
+  scrollbar-width: none;
+}
+
+header{
+  
+ 
+  width: 98%;
+  padding: 1%;
+}
+
+.image1{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 45%;
+}
+
+.navbar{
+  position: absolute;
+  top: 8%;
+  right:50px;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: red;
+  margin-left: 10px;
+}
+
+.navbar a:hover{
+  cursor: pointer;
+  color: rgb(255, 140, 140);
+}
+.search-bar{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.search-bar input{
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+
+}
+#img{
+  
+
+ 
+}
+
+.img1{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 46%;
+  left: 70%;
+
+}
+.para{
+  text-align: justify;
+  letter-spacing: 0.6px;
+
+}
+.image2:hover{
+  transform: scale(150%);
+}
+footer{
+  height: 50px;
+  text-align: center;
+  background-color: greenyellow;
+  color: black;
+  width: 99%;
+  bottom: 0px;
+  position: fixed;
+  padding-top: 2px;
+  
+}
+
+.add-info{
+  margin-top: 1%;
+  width: 60%;
+  margin-left: 1%;
+
+  width: 99% ;
+}
+.add-info summary{
+  color: rgb(252, 73, 37);
+}
+
+#para-grp{
+  width: 60%;
+  padding: 1%;
+  margin: 1%;
+  overflow: scroll;
+ 
+  height: 197px;
+  
+}
+.one a{
+  text-align: center;
+    text-decoration: none;
+  color: red;
+  margin-left: 20px;
+ 
+  
+}
+
+.para::first-letter{
+  font-size: 20px;
+}
+
+.heading{
+  color: red;
+  padding: 5px 0px 0px 0px;
+  text-align: center;
+  font-size: 30px;
+   font-style: italic;
+  
+}
+.heading::first-letter{
+  font-size: 50px;
+
+}
+
